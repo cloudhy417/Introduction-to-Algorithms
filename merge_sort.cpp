@@ -9,6 +9,7 @@ int main(int argc, char const *argv[])
 	MergeSort(arr,0,9);
 	for(int i=0;i<10;i++)
 		printf("%d ",arr[i] );
+	getchar();
 	return 0;
 }
 void MergeSort(int arr[],int p,int r)
